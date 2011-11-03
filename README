@@ -1,0 +1,6 @@
+this project is my own video converter using ffmpeg.
+the program will use ffmpeg to convert the videos chosen to either video or audio files.
+
+Conversion format:
+
+C:\Program Files\ffmpeg>ffmpeg -i "D:\v\Within Temptation - Memories.mp4" -b 500k -ab 128k -vcodec mpeg4 -s 320x240 -acodec libfaac D:\v\WI-Memories.mp4
